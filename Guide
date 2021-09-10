@@ -1,0 +1,13 @@
+# This repository will help you install RetroPie if you are running Debian or Ubuntu
+
+# First update and upgrade
+sudo apt update && sudo apt upgrade
+
+# Then get the retropie script
+git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+
+# Enter the folder of the retropie script
+cd RetroPie-Setup
+
+# The script is executed with the following
+sudo ./retropie-setup.sh
